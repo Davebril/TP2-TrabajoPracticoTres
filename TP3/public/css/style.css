@@ -1,0 +1,50 @@
+body{
+    background-color: #e0eaea;
+}
+
+/*______________________________ Logo ______________________________*/
+.logo{
+    text-align: center;
+}
+
+#logo_imagen{
+ width: 100px;
+ margin: 10px;
+}
+
+/*______________________________ Nav ______________________________*/
+.links{
+    background-color: #1C3879;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .links a{
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    width: 150px;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .links a:hover{
+    background-color: #47B5FF;
+    transform: skewX(-20deg);
+  }
+
+  /*______________________________ Tabla ______________________________*/
+  .tab_cont{
+    margin-top: 50px;
+  }
+
+  /*______________________________ Formulario ______________________________*/
+  .form_cont{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 25%;
+  }
